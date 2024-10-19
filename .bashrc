@@ -115,7 +115,7 @@ export MAIL='inajah@student.1337.ma'
 # add git status to the prompt
 source /etc/bash_completion.d/git-prompt
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\e[1;31m$(__git_ps1 "(%s)" | tr -d " ")\e[0m$ '
+export PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\e[1;31m$(__git_ps1 "(%s)" | tr -d " ")\e[0m\n$ '
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
